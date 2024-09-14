@@ -230,8 +230,26 @@ const blog1 = () => {
               </video>
             </div>
             <h2 className="my-8 text-xl text-accent">• Electrical wiring and conduit installation</h2>
-            
-            
+            <p className="my-8 text-white/60  ">Started designing and planning the electrical conduit layout, using an in-wall wiring system. I began chiseling the walls to embed the conduit. It seemed easy at first, but it turned out to be quite exhausting.</p>
+            <div className="w-full max-w-lg mx-auto mt-8">
+              <video
+                controls
+                className="w-full aspect-video"
+              >
+                <source src="/assets/blog/v9.mp4" type="video/mp4" />  
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="my-8 text-white/60  ">After chiseling the walls, I proceeded to lay the conduits and run the electrical wiring.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/9jpg.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div> 
+
+
             <p className="my-8 text-white/60  "></p>
             <p className="my-8 text-white/60  "></p>
             <p className="my-8 text-white/60  "></p>
