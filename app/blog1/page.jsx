@@ -2,6 +2,7 @@
 'use client'
 
 
+import Footer from "@/components/Footer";
 import Link from "next/link";
 
 const blog1 = () => {
@@ -15,7 +16,7 @@ const blog1 = () => {
         <div className="mt-8 border-b border-gray-500 w-full mx-auto"></div>
       </header>
       <main className="max-w-5xl mx-auto px-6 py-10 lg:flex lg:space-x-16">
-        <aside className="flex-none w-full lg:w-1/4 mb-10 lg:mb-0">
+        <aside className="flex-none w-full lg:w-1/4 mb-10 lg:mb-0 ">
           <div className="flex  items-center  lg:text-left lg:items-start mb-2">
             <img
               src="/assets/blog/profileB1.png"
@@ -243,28 +244,221 @@ const blog1 = () => {
             <p className="my-8 text-white/60  ">After chiseling the walls, I proceeded to lay the conduits and run the electrical wiring.</p>
             <div className="w-full max-w-lg mx-auto">
                <img
-                src="/assets/blog/9jpg.jpg"
+                src="/assets/blog/9.jpg"
                 alt=""
                 className="w-full h-full rounded-md brightness-90"
               />
             </div> 
-
-
-            <p className="my-8 text-white/60  "></p>
-            <p className="my-8 text-white/60  "></p>
-            <p className="my-8 text-white/60  "></p>
-            <p className="my-8 text-white/60  "></p>
-            <p className="my-8 text-white/60  "></p>
-            <p className="my-8 text-white/60  "></p>
-            <p className="my-8 text-white/60  "></p>
-            <p className="my-8 text-white/60  "></p>
-            <p className="my-8 text-white/60  "></p>
-
-
-
+            <p className="my-8 text-white/60  ">Finally, the conduit wiring is almost complete. Next, I’ll prepare to plaster the walls for a smooth finish and install the ceiling to cover everything up.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/10.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <h2 className="my-8 text-xl text-accent">• After completing the electrical wiring, the next task is plastering the walls.</h2>
+            <p className="my-8 text-white/60  ">My first time plastering a wall—honestly, it was more exhausting than the previous tasks. Since it was my first attempt, it might not be perfect, but it's good enough.</p>
+            <div className="w-full max-w-lg mx-auto mt-8">
+              <video
+                controls
+                className="w-full aspect-video"
+              >
+                <source src="/assets/blog/v10.mp4" type="video/mp4" />  
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="my-8 text-white/60  ">I kept working until all the walls were plastered. This plastering job took a long time—I could only manage one wall per day. With a total of 36 walls, it took me 36 days to complete the plastering.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/11.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <h2 className="my-8 text-xl text-accent">• Starting the ceiling installation.</h2>
+            <p className="my-8 text-white/60  ">I started by watching YouTube and learning through trial and error. I’m thankful to all the teachers on YouTube. I took advice from various channels and adapted it to fit my preferences. Let’s dive into the process!</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/12.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">In the main hall, I attempted to create a recessed ceiling. It was my first time working with ceilings, and it was quite a challenge.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/13.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Once the frame was completed, I began lifting the gypsum boards to install them. The shape of the ceiling started to come together little by little.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/14.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">After that, I painted the ceiling and began installing the lights, choosing the type of lighting that I liked.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/15.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">I also started installing lights in the recessed ceiling of the main hall.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/16.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">At night, I began testing my RGB lighting system. Every light is an RGB bulb that can be controlled via Wi-Fi and through my mobile phone. The lights can also be turned on and off using voice commands. I've been working to make this a smart home by using Wi-Fi-enabled bulbs and switches that can be controlled remotely.</p>
+            <div className="w-full max-w-lg mx-auto mt-8">
+              <video
+                controls
+                className="w-full aspect-video"
+              >
+                <source src="/assets/blog/11.mp4" type="video/mp4" />  
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <h2 className="my-8 text-xl text-accent">• Next, I began working on the flooring.</h2>
+            <p className="my-8 text-white/60  ">"I started with the bedroom first.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/17.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Once that was done, I began installing the baseboards. Laying the tiles seemed easy, but it was slow going since it was my first time doing it.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/18.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">After that, I continued working on the flooring in the main hall. </p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/19.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Being a bit impatient, even though the house wasn't finished yet, I went ahead and ordered furniture for the room.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/20.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">"Once the bedroom was finished, I quickly installed the door knob. I chose a smart lock that requires fingerprint, passcode, or keycard to unlock, while still allowing the use of a regular key.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/22.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">I hired a glass technician to install the front door because I wasn’t able to do it myself.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/21.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <h2 className="my-8 text-xl text-accent">• Next, I began working on the flooring.</h2>
+            <p className="my-8 text-white/60  ">I started experimenting with plaster baseboard molding on my own, shaping it according to the dimensions I needed.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/23.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Next, I began installing the trim around the windows and enlarged the front pillars to enhance their appearance.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/24.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <h2 className="my-8 text-xl text-accent">• Bathroom work</h2>
+            <p className="my-8 text-white/60  ">After finishing the plumbing installation, I started laying the tiles. This was my first time doing this, so I’m grateful for the advice I found on YouTube.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/25.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Once the tiling was almost complete, I began working on the ceiling installation next.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/26.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Started installing the exhaust fan.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/28.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Next, I installed the toilet. Then, I installed the sink and mirror.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/29.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Installed the showerhead—just one final step away from being ready for use.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/30.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">Final step: Installed the water pump and connected the pipes to the bathroom. Now, everything is ready for use.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/31.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <h2 className="my-8 text-2xl text-accent">• It was then that disappointment arrived.</h2>
+            <p className="my-8 text-white/60  ">At one point in my life, I received a red card and had to serve in the military. The disappointment and sadness were overwhelming, as it felt like my life goals were shattered just because of having to serve.</p>
+            <div className="w-full max-w-lg mx-auto">
+               <img
+                src="/assets/blog/100.jpg"
+                alt=""
+                className="w-full h-full rounded-md brightness-90"
+              />
+            </div>
+            <p className="my-8 text-white/60  ">I was in the process of building my career, but everything seemed to fall apart. As a freelance programmer, I hadn’t moved on from my work, and the construction of my house was almost complete—just a little more to go. But then, I had to go serve in the military first. It’s really hard to come to terms with.</p>
+            <p className="my-10 text-white ">Finally, I would like to express my heartfelt gratitude to everyone who took the time to read this article until the end. Thank you.</p>
+          
           </section>
+         
         </article>
       </main>
+      <Footer/>
     </div>
   )
 }

@@ -22,7 +22,7 @@ const blogs = {
             title: "Car Maintenance and Memos Online Application",
             description: "The thesis present construction of Car Maintenance and Memos OnlineApplication which learn about development application on smartphone using react native. This is application made for reduce low maintenance problem, It can damage your car parts. And can reduce the overlap maintenance problem in car use together. In application can divided in 2 categories is car maintenance mode and memos mode. And important part of this application are use together with email. ",
             spa: "javascript react-native node.js Firebase ",
-            link: "/blog1",
+            link: "/blog2",
         },
         {
             id: 2,
@@ -30,7 +30,7 @@ const blogs = {
             title: "One year as a teacher",
             description: "The thesis present construction of Car Maintenance and Memos OnlineApplication which learn about development application on smartphone using react native. This is application made for reduce low maintenance problem, It can damage your car parts. And can reduce the overlap maintenance problem in car use together. In application can divided in 2 categories is car maintenance mode and memos mode. And important part of this application are use together with email. ",
             spa: "javascript react-native node.js Firebase ",
-            link: "/blog1",
+            link: "/blog3",
 
         },
 
