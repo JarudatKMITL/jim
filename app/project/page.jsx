@@ -22,10 +22,12 @@ const projects = [
     title: "project 1",
     description: "Car Maintenance and Memos Online Application  The application will be developed using React Native for cross-platform mobile development, ensuring compatibility with both iOS and Android devices. Firebase will serve as the backend database, providing real-time data storage, user authentication, and cloud functionality.",
     stack: [
-      { name: "react-native" ,
+      {
+        name: "react-native",
         link: "https://www.youtube.com/watch?v=ni7WIotsXQQ"
       },
-      { name: "firebase",
+      {
+        name: "firebase",
         link: "/pdf/Firebase.pdf"
       },
     ],
@@ -40,16 +42,20 @@ const projects = [
     title: "project 2",
     description: "Blynk Server on Raspberry Pi",
     stack: [
-      { name: "ModbusRelay",
+      {
+        name: "ModbusRelay",
         link: "https://github.com/JarudatKMITL/ModbusRelay",
       },
-      { name: "MQTT" ,
+      {
+        name: "MQTT",
         link: "https://github.com/JarudatKMITL/MQTT",
       },
-      { name: "ModbusRTU",
+      {
+        name: "ModbusRTU",
         link: "https://github.com/JarudatKMITL/ModbusRTU",
       },
-      { name: "TempRTC",
+      {
+        name: "TempRTC",
         link: "https://github.com/JarudatKMITL/Temp_RTC",
       },
     ],
@@ -60,18 +66,33 @@ const projects = [
   },
   {
     num: "03",
-    category: "Mobile",
+    category: "DNS Server",
     title: "project 3",
-    description: "jqwinjsahbgvynjbhvgbjn",
+    description: "In this project, I experimented with creating a DNS Server using the Windows Server operating system.",
     stack: [
-      { name: "gtml5" },
-      { name: "Java OpenJDK" },
-      { name: "JavaScript" },
+      {
+        name: "Docmument DNS Server",
+        link: "/pdf/DNS-Server.pdf",
+      },
     ],
-    image: '/assets/project/thumb3.png',
-    live: "/",
-    github: "/"
-
+    image: '/assets/project/DNS.png',
+    live: "https://www.youtube.com/watch?v=GU2uAVVZbsc",
+    github:"https://github.com/JarudatKMITL/DNS-Server-Report"
+  },
+  {
+    num: "04",
+    category: "Automatic Sun Tracking System for Solar Panel",
+    title: "project 4",
+    description: "This project, at the Vocational Certificate level (Grade 3), involves developing a model of an automatic sun-tracking system for solar panels. The MSC51 microcontroller is used to control a servo motor, which rotates according to the preset angles based on time.",
+    stack: [
+      {
+        name: "MCS51",
+        link: "https://github.com/JarudatKMITL/Automatic-Sun-Tracking-System-for-Solar-Panel",
+      },
+    ],
+    image: '/assets/project/Solar.png',
+    live: "https://github.com/JarudatKMITL/Automatic-Sun-Tracking-System-for-Solar-Panel",
+    github:"https://github.com/JarudatKMITL/Automatic-Sun-Tracking-System-for-Solar-Panel"
   },
 ];
 
