@@ -18,42 +18,54 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Mobile",
+    category: "Mobile Application",
     title: "project 1",
-    description: "jqwinjsahbgvynjbhvgbjn",
+    description: "Car Maintenance and Memos Online Application  The application will be developed using React Native for cross-platform mobile development, ensuring compatibility with both iOS and Android devices. Firebase will serve as the backend database, providing real-time data storage, user authentication, and cloud functionality.",
     stack: [
-      { name: "gtml5" },
-      { name: "css3" },
-      { name: "JavaScript" },
+      { name: "react-native" ,
+        link: "https://www.youtube.com/watch?v=ni7WIotsXQQ"
+      },
+      { name: "firebase",
+        link: "/pdf/Firebase.pdf"
+      },
     ],
-    image: '/assets/project/thumb1.png',
-    live: "/",
-    github: "/"
+    image: '/assets/project/mobileApp.png',
+    live: "/blog2",
+    github: "https://github.com/JarudatKMITL/jectcar4"
 
   },
   {
     num: "02",
-    category: "Mobile",
-    title: "project 1",
-    description: "jqwinjsahbgvynjbhvgbjn",
+    category: "Internet of Things project",
+    title: "project 2",
+    description: "Blynk Server on Raspberry Pi",
     stack: [
-      { name: "gtml5" },
-      { name: "css3" },
-      { name: "JavaScript" },
+      { name: "ModbusRelay",
+        link: "https://github.com/JarudatKMITL/ModbusRelay",
+      },
+      { name: "MQTT" ,
+        link: "https://github.com/JarudatKMITL/MQTT",
+      },
+      { name: "ModbusRTU",
+        link: "https://github.com/JarudatKMITL/ModbusRTU",
+      },
+      { name: "TempRTC",
+        link: "https://github.com/JarudatKMITL/Temp_RTC",
+      },
     ],
-    image: '/assets/project/thumb2.png',
-    live: "/",
-    github: "/"
+    image: '/assets/project/IOT.png',
+    live: "https://github.com/JarudatKMITL/blynk_Server#%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-blynk-server-%E0%B8%9A%E0%B8%99-raspberry-pi",
+    github: "https://github.com/JarudatKMITL/blynk_Server"
 
   },
   {
     num: "03",
     category: "Mobile",
-    title: "project 1",
+    title: "project 3",
     description: "jqwinjsahbgvynjbhvgbjn",
     stack: [
       { name: "gtml5" },
-      { name: "css3" },
+      { name: "Java OpenJDK" },
       { name: "JavaScript" },
     ],
     image: '/assets/project/thumb3.png',
@@ -88,7 +100,7 @@ const Project = () => {
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white
               group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.category}
               </h2>
               <p className="text-white/60">
                 {project.description}
@@ -96,10 +108,14 @@ const Project = () => {
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
-                    <li className="text-xl text-accent">
+                    <a
+                      href={item.link}
+                      target="blank"
+                      className="text-xl text-accent hover:underline">
                       {item.name}
                       {index !== project.stack.length - 1 && ","}
-                    </li>
+
+                    </a>
                   )
                 })}
               </ul>
@@ -157,15 +173,16 @@ const Project = () => {
                           className="object-cover"
                           alt=""
                         />
+
                       </div>
                     </div>
                   </SwiperSlide>
                 )
               })}
-              <WorkSliderBtns 
-              containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)]
-              xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" 
-              btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px]
+              <WorkSliderBtns
+                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)]
+              xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px]
               w-[44px] h-[44px] flex justify-center items-center transition-all"
               />
             </Swiper>

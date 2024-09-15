@@ -180,7 +180,7 @@ const Resume = () => {
                 <span ></span>
               </div>
 
-              <a href="/pdf/CV.pdf" download="CV-Jimmy.pdf" >
+              <a href="/pdf/Resume.pdf" download="Resume-Jimmy.pdf" >
                 <Button
                   type="button"
                   variant='outline'
